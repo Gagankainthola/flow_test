@@ -22,7 +22,7 @@ import Sidebar from "./Sidebar";
 import { useFlowchart } from "../contexts/FlowchartContext";
 import StartNode from "./nodes/StartNode";
 import ProcessNode from "./nodes/ProcessNode";
-import DecisionNodes from "./nodes/DecisionNodes";
+import DecisionNode from "./nodes/DecisionNodes";
 import EndNode from "./nodes/EndNode";
 import IONode from "./nodes/IONode";
 import CustomEdge from "./edges/CustomEdge";
@@ -33,7 +33,7 @@ import { useToast } from "../hooks/useToast";
 const nodeTypes: NodeTypes = {
   start: StartNode,
   process: ProcessNode,
-  decision: DecisionNodes,
+  decision: DecisionNode,
   end: EndNode,
   io: IONode,
 };
