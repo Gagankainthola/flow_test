@@ -1,0 +1,7 @@
+.parallelogram {
+  transform: skew(-15deg);
+}
+
+.parallelogram div {
+  transform: skew(15deg);
+}
