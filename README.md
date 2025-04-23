@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+# React + Electron + Vite Desktop App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a desktop application built with **React**, **Electron**, and **Vite**. It allows users to create, edit, and run the app in offline mode.
 
-Currently, two official plugins are available:
+## Features
+- Development server setup for React with Vite
+- Offline desktop app powered by Electron
+- Fast development experience with HMR (Hot Module Replacement)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+Follow the steps below to set up the project locally:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-- Configure the top-level `parserOptions` property like this:
+### Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository:
+   ```bash
+   git clonehttps://github.com/Gagankainthola/flow_test
+Navigate into the project folder:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+cd your-repo-name
+Install the dependencies:
+
+
+npm install
+Development Mode
+To start the development server and run the app:
+
+Run the following command:
+
+
+npm run dev
+This will start the development server, and you can begin working on the app. Changes will be hot-reloaded.
+
+Running the Desktop App Offline
+Once the app is in development mode, you can also run the Electron desktop app:
+
+In a separate terminal window, run:
+
+
+npm run electron
+This will start the Electron app, and you will be able to use the desktop version offline.
+
+Contributing
+Feel free to open issues and create pull requests to contribute to the project.
+
+License
+This project is licensed under the MIT License.
+
+Feel free to modify the details based on your exact project setup!
